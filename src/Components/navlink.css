@@ -1,0 +1,45 @@
+.navlinks {
+    display: flex;
+
+
+    justify-content: center;
+    padding-left: 10px;
+    gap: 1rem;
+    background-color: rgb(252, 244, 234);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.dropdown a {
+    display: block;
+    list-style-type: none;
+    background-color: rgb(252, 244, 234);
+
+    width: 100%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding-top: 1rem;
+    color: black;
+}
+
+.list-items {
+    margin-bottom: 1rem;
+}
+
+.links:hover {
+    border: black solid 1px;
+    border-radius: 28px;
+    padding-left: 5px;
+    background-color: rgb(214, 244, 244);
+}
+
+.dropdown a:hover {
+    background-color: rgb(232, 229, 229);
+}
